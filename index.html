@@ -2,31 +2,37 @@
 <html lang="en-US">
 
     <head>
-        <title>Best of Uncle Iroh</title>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Best of Uncle Iroh</title>
         <meta name="author" content="Aditya Niloi">
-        <meta property="og:image" content="http://www.walldevil.com/wallpapers/w07/avatar-the-last-airbender-general-iroh-leaves-from-the-vine.jpg">
+        <meta property="og:image" content="assets/iroh-determined.jpg">
         <meta property="og:title" content="Best of Uncle Iroh">
         <meta property="og:description" content="Learn, laugh and cry with practical wisdom and life lessons from Avatar's Uncle Iroh">
         <meta name="twitter:title" content="Best of Uncle Iroh">
         <meta name="description" content="Learn ancient, practical wisdom from one of Avatar's wisest: General (Uncle) Iroh.">       
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="iroh.ico" type="image/x-icon">
     </head>
 
     <body>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row text-center">
-                <div>
+                <div class='title'>
                     <h1>The Best of Uncle Iroh</h1>
                 </div>
-                <div>
-                    <h3 id="quoteBox"></h3>
+                <div class="jumbotron">
+                    <blockquote>
+                        <p id="quoteBox"></p>
+                        <footer>Uncle Iroh</footer>
+                    </blockquote>
                 </div>
                 <div>
-                    <button onclick="RQG.getNewQuote()">More Wisdom</button>
-                    <button onclick="RQG.tweetQuote()">Share Wisdom</button>
+                    <button id="nextQuoteButton" onclick="RQG.getNewQuote()"><img src="assets/Shuffle.png">More Wisdom</button>
+                    <button id="shareQuoteButton" onclick="RQG.tweetQuote()"><img src="assets/Share.png">Share Wisdom</button>
                 </div>
             </div>
         </div>

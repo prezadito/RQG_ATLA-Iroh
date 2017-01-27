@@ -9,7 +9,7 @@ var RQG = {
         "You have light and peace inside of you. If you let it out, you can change the world around you.",
         "Sometimes the best way to solve your own problems is to help someone else.",
         "Even in the material world, you will find that if you look for the light, you can often find it. But if you look for the dark, that is all you will ever see.",
-        "Many things that seem threatening in the dark Become welcoming when we shine light on them.",
+        "Many things that seem threatening in the dark become welcoming when we shine light on them.",
         "Is it your own destiny? Or is it a destiny someone else has tried to force on you?",
         "It is usually best to admit mistakes when they occur, and to seek to restore honor.",
         "A man needs his rest.",
