@@ -1,3 +1,27 @@
 body {
     padding: 5em 0 5em 0;
+    font-family: Monaco, monospace;
+}
+
+/* 
+font-family: 'Libre Baskerville', serif;
+font-family: 'Arima Madurai', cursive;
+*/
+
+.title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+}
+
+#quoteBox {
+    font-family: 'Arima Madurai', cursive;
+}
+
+button {
+    font-family: 'Arima Madurai', cursive;
+}
+
+button > img {
+    width: 25%;
+    height: auto;
 }
