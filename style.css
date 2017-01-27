@@ -18,6 +18,7 @@ font-family: 'Arima Madurai', cursive;
 
 button {
     font-family: 'Arima Madurai', cursive;
+    margin: 5px 10px 0 10px;
 }
 
 button > img {
