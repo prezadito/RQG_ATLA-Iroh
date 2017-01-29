@@ -1,3 +1,8 @@
+/* 
+font-family: 'Libre Baskerville', serif;
+font-family: 'Arima Madurai', cursive;
+*/
+
 html {
     min-height: 100%;
 }
@@ -10,11 +15,6 @@ body {
     background-position: top;
 }
 
-/* 
-font-family: 'Libre Baskerville', serif;
-font-family: 'Arima Madurai', cursive;
-*/
-
 .title {
     font-family: 'Libre Baskerville', serif;
     font-size: 24px;
@@ -26,13 +26,8 @@ font-family: 'Arima Madurai', cursive;
     font-weight: 600;
 }
 
-button {
-    margin: 15px 25px;
-    padding: 5px 0;
-}
-
 button > img {
-    width: 15%;
+    width: 25%;
     height: auto;
 }
 
@@ -43,4 +38,8 @@ button > img {
 .img-responsive {
     width: 150px;
     height: auto;
+}
+
+.share-shuff {
+    display: inline-block;
 }

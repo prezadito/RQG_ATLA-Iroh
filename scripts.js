@@ -59,4 +59,4 @@ var RQG = {
 
 }
 
-window.onload(RQG.getNewQuote());
+window.onload = RQG.getNewQuote();
