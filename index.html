@@ -22,10 +22,13 @@
     <body>
         <div class="container">
             <div class="row text-center">
+                <div class="header-img">
+                    <img class="center-block img-responsive img-rounded" src="assets/iroh-korra.png">
+                </div>
                 <div class='title'>
                     <h1>The Best of Uncle Iroh</h1>
                 </div>
-                <div class="jumbotron">
+                <div>
                     <blockquote>
                         <!--<img src="iroh.ico">-->
                         <p id="quoteBox"></p>
@@ -33,8 +36,9 @@
                     </blockquote>
                 </div>
                 <div>
-                    <button id="nextQuoteButton" onclick="RQG.getNewQuote()"><img src="assets/Shuffle.png">More Wisdom</button>
-                    <button id="shareQuoteButton" onclick="RQG.tweetQuote()"><img src="assets/Share.png">Share Wisdom</button>
+                    <button class="pull-left" id="nextQuoteButton" onclick="RQG.getNewQuote()" name="More Wisdom"><img src="assets/Shuffle.png"></button>
+                    <br>
+                    <button class="pull-right" id="shareQuoteButton" onclick="RQG.tweetQuote()" name="Share Wisdom"><img src="assets/Share.png"></button>
                 </div>
             </div>
         </div>

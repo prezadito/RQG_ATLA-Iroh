@@ -1,5 +1,13 @@
+html {
+    min-height: 100%;
+}
+
 body {
     padding: 2.5em 0 2.5em 0;
+    min-height: 100%;
+    background: url('assets/iroh-avatar-light.png') center center no-repeat;
+    background-size: auto 100%;
+    background-position: top;
 }
 
 /* 
@@ -14,14 +22,25 @@ font-family: 'Arima Madurai', cursive;
 
 #quoteBox {
     font-family: 'Arima Madurai', cursive;
+    font-weight: 600;
 }
 
 button {
     font-family: 'Arima Madurai', cursive;
-    margin: 5px 10px 0 10px;
+    margin: 5px 75px;
+    padding: 5px 0;
 }
 
 button > img {
-    width: 25%;
+    width: 15%;
+    height: auto;
+}
+
+.header-img {
+    margin-top: 2.5em;
+}
+
+.img-responsive {
+    width: 150px;
     height: auto;
 }
