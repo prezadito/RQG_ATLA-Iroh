@@ -18,6 +18,7 @@ font-family: 'Arima Madurai', cursive;
 .title {
     font-family: 'Libre Baskerville', serif;
     font-size: 24px;
+    margin-top: 2em;
 }
 
 #quoteBox {
@@ -26,7 +27,6 @@ font-family: 'Arima Madurai', cursive;
 }
 
 button {
-    font-family: 'Arima Madurai', cursive;
     margin: 15px 25px;
     padding: 5px 0;
 }
@@ -37,7 +37,7 @@ button > img {
 }
 
 .header-img {
-    margin-top: 2.5em;
+    margin-top: 1em;
 }
 
 .img-responsive {
