@@ -43,3 +43,12 @@ button > img {
 .share-shuff {
     display: inline-block;
 }
+
+.footer {
+    padding-top: 10px;
+    color: #777;
+}
+
+.buttons {
+    margin-bottom: 25px;
+}

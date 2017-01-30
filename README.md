@@ -13,7 +13,7 @@ Here are some of the things I'm hoping to include in future updates to the site:
 1. Moving the quotes array to a json file hosted on Dropbox.
 2. Add meta tags for tumblr, twitter, linkedin, pinterest, etc.
 3. Add share buttons for tumblr, facebook, linkedin, pinterest.
-4. Add footer tag that includes copyright information.
+4. ~Add footer tag that includes copyright information.~
 5. Each random quote will play its corresponding audio clip.
 
 
