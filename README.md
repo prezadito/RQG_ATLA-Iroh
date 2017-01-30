@@ -9,6 +9,7 @@ When you first visit the site, a quote is already shown at random to the visitor
 
 # Future Iterations
 Here are some of the things I'm hoping to include in future updates to the site:
+
 1. Moving the quotes array to a json file hosted on Dropbox.
 2. Add meta tags for tumblr, twitter, linkedin, pinterest, etc.
 3. Add share buttons for tumblr, facebook, linkedin, pinterest.
